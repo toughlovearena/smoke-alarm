@@ -62,9 +62,9 @@ const config: SmokeAlarmConfig = {
       verify: verifyJson,
     }],
   }, {
-    label: 'match.tla',
+    label: 'matchmaker.tla',
     endpoints: [{
-      url: 'https://match.toughlovearena.com',
+      url: 'https://matchmaker.toughlovearena.com',
       verify: verifyJson,
     }],
   }, {
