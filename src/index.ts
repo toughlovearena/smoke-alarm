@@ -44,6 +44,11 @@ const config: SmokeAlarmConfig = {
       }),
     }],
   }, {
+    label: 'assets.cloud',
+    endpoints: [{
+      url: 'https://assets.toughlovearena.cloud/menu/logo_beta.png',
+    }],
+  }, {
     label: 'cache.tla',
     endpoints: [{
       url: 'https://cache.toughlovearena.com/health',
