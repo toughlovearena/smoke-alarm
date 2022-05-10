@@ -94,14 +94,9 @@ const config: SmokeAlarmConfig = {
       verify: verifyJson,
     }],
   }, {
-    label: 'stun.tla',
-    endpoints: [{
-      url: 'https://stun.toughlovearena.com/health',
-    }],
-  }, {
     label: 'ice.tla',
     endpoints: [{
-      url: 'https://ice.toughlovearena.com',
+      url: 'https://ice.toughlovearena.com/health',
     }],
   }, {
     label: 'serverless accounts API	',
