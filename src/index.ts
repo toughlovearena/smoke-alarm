@@ -99,11 +99,11 @@ const config: SmokeAlarmConfig = {
       url: 'https://ice.toughlovearena.com/health',
     }],
   }, {
-//     label: 'redirect.tla',
-//     endpoints: [{
-//       url: 'https://redirect.toughlovearena.com/health',
-//     }],
-//   }, {
+    label: 'redirect.tla',
+    endpoints: [{
+      url: 'https://redirect.toughlovearena.com/health',
+    }],
+  }, {
     label: 'serverless accounts API	',
     endpoints: [{
       url: 'https://us-central1-fighter-api.cloudfunctions.net/webApi/api/v1/',
